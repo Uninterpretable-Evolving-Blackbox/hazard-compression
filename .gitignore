@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / Word temp files
+~$*
+*.swp
+*.swo
+
+# Verification artifacts (not part of reported campaign)
+results_walker_verify/
+
+# Logs
+online_logs/
+*.log
+
+# Drafts (not part of submission)
+*.docx
+*Draft*.pdf
+
+# Model checkpoints (large)
+*.pt
+*.npy
+
+# Temp
+/tmp/
+.ipynb_checkpoints/
